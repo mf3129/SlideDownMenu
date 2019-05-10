@@ -40,7 +40,7 @@ class NewsTableViewController: UITableViewController {
             cell.postImageView.image = UIImage(named: "red-lights-lisbon")
             cell.postTitle.text = "Red Lights, Lisbon"
             cell.postAuthor.text = "TOM EVERSLEY (@tomeversley)"
-            cell.authorImageView.image = UIImage(named: "appcoda-fav-logo")
+            cell.authorImageView.image = UIImage(named: "Tekkers1")
             
         } else if indexPath.row == 1 {
             cell.postImageView.image = UIImage(named: "val-throrens-france")
@@ -64,6 +64,15 @@ class NewsTableViewController: UITableViewController {
 
         return cell
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let menuTableVC = segue.destination as! MenuTableViewController
+        menuTableVC.currentItem = self.title!
+    }
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        let sourceViewController = segue.source as! MenuTableViewController
+        self.title = sourceViewController.currentItem
+    }
 
 }
