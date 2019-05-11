@@ -15,6 +15,7 @@
 		F4CB3D051DC19C95008A85BF /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3D041DC19C95008A85BF /* NewsTableViewCell.swift */; };
 		F4CB3D071DC19D20008A85BF /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3D061DC19D20008A85BF /* MenuTableViewCell.swift */; };
 		F4CB3D091DC19D30008A85BF /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB3D081DC19D30008A85BF /* MenuTableViewController.swift */; };
+		F4F37F4E228681F9005CCD2B /* MenuTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F37F4D228681F9005CCD2B /* MenuTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F4CB3D041DC19C95008A85BF /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		F4CB3D061DC19D20008A85BF /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		F4CB3D081DC19D30008A85BF /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		F4F37F4D228681F9005CCD2B /* MenuTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F4CB3D041DC19C95008A85BF /* NewsTableViewCell.swift */,
 				F4CB3D061DC19D20008A85BF /* MenuTableViewCell.swift */,
 				F4CB3D081DC19D30008A85BF /* MenuTableViewController.swift */,
+				F4F37F4D228681F9005CCD2B /* MenuTransitionAnimator.swift */,
 			);
 			path = SlideDownMenu;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				F4CB3CF11DC19BE4008A85BF /* AppDelegate.swift in Sources */,
 				F4CB3D091DC19D30008A85BF /* MenuTableViewController.swift in Sources */,
 				F4CB3D071DC19D20008A85BF /* MenuTableViewCell.swift in Sources */,
+				F4F37F4E228681F9005CCD2B /* MenuTransitionAnimator.swift in Sources */,
 				F4CB3D051DC19C95008A85BF /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
